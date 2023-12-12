@@ -6,18 +6,15 @@ const Navbar = () => {
     return (
     <>
 
-    <nav>
+    <nav className="Navbar">
 
-    <ul>
+    <ul className="NavbarLista">
         <li>Inicio</li>
         <li>Productos</li>
         <li>Contacto</li>
     </ul>
-
-
+    <CartWidget className="Carrito"/>
     </nav> 
-    <CartWidget/>
-
     </>
     )
 }
