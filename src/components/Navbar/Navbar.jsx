@@ -6,12 +6,16 @@ const Navbar = () => {
     return (
     <>
 
+    <nav>
+
     <ul>
-        <li>Elemento 1</li>
-        <li>Elemento 2</li>
-        <li>Elemento 3</li>
+        <li>Inicio</li>
+        <li>Productos</li>
+        <li>Contacto</li>
     </ul>
-    
+
+
+    </nav> 
     <CartWidget/>
 
     </>
